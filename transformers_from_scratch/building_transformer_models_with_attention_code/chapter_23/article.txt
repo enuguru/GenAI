@@ -1,0 +1,103 @@
+Amid the political turmoil of outgoing British Prime Minister Liz Truss’s
+short-lived government, the Bank of England has found itself in the
+fiscal-financial crossfire. Whatever government comes next, it is vital
+that the BOE learns the right lessons.
+
+On September 23, Truss’s government announced a large, unfunded
+fiscal-stimulus package that undermined the BOE’s price-stability mandate
+and caused government-debt and foreign-exchange markets to malfunction.
+To prevent systemically important markets from seizing up, the BOE
+postponed its planned offloading of government bonds (gilts) and instead
+purchased more. But these unsterilized (monetized) asset purchases amount
+to an expansionary monetary policy, which will further frustrate the BOE’s
+efforts to bring down inflation – unless and until the purchases are
+reversed.
+
+Unfortunately for the BOE, it had no choice. Financial stability is a
+precondition for sustainable price stability, so it is a central bank’s
+overriding concern. When the circumstances demand it, central banks must
+act as lenders of last resort (LOLR) to preserve or restore funding
+liquidity for systemically important counterparties. They also must
+serve as market makers of last resort (MMLR) or buyers of last resort
+(BOLR) to maintain or restore market liquidity in systemically important
+financial markets.
+
+The BOE got its latest interventions partly right, but it also made
+mistakes. When market participants in the UK – notably liability-driven
+investment (LDI) funds – panicked, the BOE intervened, on September 28,
+with a powerful statement about its willingness and ability to act.
+Purchases would be carried out “on whatever scale is necessary” to restore
+orderly markets. Moreover, the Treasury would fully – and quite
+properly – indemnify the operation for any losses incurred.
+
+But the BOE undermined this show of force by putting a time limit on its
+emergency intervention. It stated that the planned sales from its Asset
+Purchase Facility would be delayed from October 3 to October 31, and
+that it would purchase up to £5 billion ($5.4 billion, as of September 28)
+of gilts per day for 13 days. These dates were offered not as mere
+estimates but as a firm interval.
+
+On October 10, the BOE reported that it had bought only around £5 billion
+of gilts in total over the course of eight daily auctions. It was a
+demonstration of credibility at work. If market participants believe
+that the MMLR is willing and able to intervene “on whatever scale is
+necessary” to restore order, the actual intervention required may be small.
+In the case of the European Central Bank’s Outright Monetary Transactions
+(launched in 2012), no actual purchases were needed to restore market
+functioning.
+
+With £60 billion of unused capacity in its emergency facility, the BOE
+then announced that it would increase the maximum size of the remaining
+five auctions to £10 billion each. It also added index-linked gilts to
+the program and initiated a temporary LOLR facility, the Temporary
+Expanded Collateral Repo Facility, to extend further assistance to
+stressed LDI funds; it eased collateral requirements for its regular
+Indexed Long-Term Repo operations; and it made additional liquidity
+available through a new, permanent Short-Term Repo facility, launched
+the week of October 3.
+
+All this made sense. But the BOE’s continued insistence that its emergency
+gilt-purchase program would end on October 14 was unhelpful, because it
+contradicted the assertion that it would carry out purchases on whatever
+scale it deemed necessary. Moreover, that date was never credible. If
+bondholders were to start dumping gilts again on October 15 or any later
+date, the BOE would be right back to acting as a BOLR.
+
+It is unclear whether the BOE’s emergency gilt purchases were on penalty
+terms, which are necessary to minimize excessive risk-taking by market
+participants who know that the central bank will intervene should fire
+sales or other dysfunctional behavior threaten market functioning.
+Penalty terms that apply when markets are disorderly are an important
+complement to well-designed regulations constraining excessive risk-taking
+when markets are orderly. But it can be difficult for a central bank to
+determine a purchase price that is both materially more attractive to
+would-be sellers than the disorderly market price as well as less
+attractive than the (unobservable) orderly market price.
+
+A separate but important issue is that the BOE’s Monetary Policy Committee
+played no meaningful role in creating and implementing the emergency
+program. That is surprising, considering that the new gilt purchases will
+complicate and delay the process of bringing inflation back down to the
+target rate. According to a statement by the BOE’s Deputy Governor for
+Financial Stability, Jon Cunliffe, the MPC was merely “informed of the
+issues in the gilt market and briefed in advance of the operation,
+including its financial-stability rationale and the temporary and targeted
+nature of the purchases.”
+
+By emphasizing the temporary and targeted nature of the purchases, Cunliffe
+seemed to be suggesting that they do not constitute monetary policy
+operations. But, in that case, was the specific emergency program – both
+the unsterilized asset purchases and the postponement of the asset
+sales – formally recommended by the Financial Policy Committee, whose
+mandate is financial stability? Cunliffe’s statement is ambiguous on this
+question: “The FPC was engaged ahead of [the program’s] launch, recognizing
+the risks to UK financial stability from dysfunction in the gilt market.
+The FPC recommended that the Bank take action, and welcomed the Bank’s plans
+for temporary and targeted purchases in the gilt market on financial
+stability grounds at an urgent pace.”
+
+Given that these emergency operations have both financial-stability
+objectives and monetary-policy implications, they ought to have been
+properly approved by all the designated decision-making bodies – the FPC
+and the MPC. If that was not the case, the program’s legitimacy may be
+significantly undermined.
