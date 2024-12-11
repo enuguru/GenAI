@@ -1,0 +1,19 @@
+
+
+vector databases and word embeddings
+https://www.youtube.com/watch?v=dN0lsF2cvm4&t=3s
+
+hugging face transformers
+https://www.youtube.com/watch?v=QEaBAZQCtwE
+
+word embedding example
+https://www.youtube.com/shorts/FJtFZwbvkI4
+
+RAG - IBM Technology - Marina Danilevsky
+https://www.youtube.com/watch?v=T-D1OfcDW1M&t=5s
+
+langchain - excellent video
+https://www.youtube.com/watch?v=RoR4XJw8wIc
+
+
+
