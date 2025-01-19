@@ -1,10 +1,3 @@
-{"prompt": "What is the process of condensation?", "completion": " Condensation is the process by which water vapor in the air is changed into liquid water."}
-{"prompt": "Who is known as the father of geometry?", "completion": " Euclid is known as the father of geometry."}
-{"prompt": "What is the main ingredient in guacamole?", "completion": " The main ingredient in guacamole is avocado."}
-{"prompt": "What is the hardest natural substance on Earth?", "completion": " The hardest natural substance on Earth is diamond."}
-{"prompt": "Who wrote the novel '1984'?", "completion": " The novel '1984' was written by George Orwell."}
-{"prompt": "What does DNA stand for?", "completion": " DNA stands for Deoxyribonucleic Acid."}
-{"prompt": "What year did World War II end?", "completion": " World War II ended in 1945."}
-{"prompt": "What is the capital of Australia?", "completion": " The capital of Australia is Canberra."}
-{"prompt": "What gas do plants absorb from the atmosphere?", "completion": " Plants absorb carbon dioxide from the atmosphere."}
-{"prompt": "What is the primary function of red blood cells?", "completion": " The primary function of red blood cells is to carry oxygen throughout the body."}
+jsonl
+{"messages": [{"role": "system", "content": "You are a helpful and harmless AI assistant."}, {"role": "user", "content": "What is the capital of Italy?"}, {"role": "assistant", "content": "The capital of Italy is Rome."}]}
+{"messages": [{"role": "system", "content": "You are a helpful and harmless AI assistant."}, {"role": "user", "content": "Who painted the Mona Lisa?"}, {"role": "assistant", "content": "The Mona Lisa was painted by Leonardo da Vinci."}]}
