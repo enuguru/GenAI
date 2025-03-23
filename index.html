@@ -1,0 +1,182 @@
+index.html
+-------------
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Translation App</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            max-width: 700px;
+            margin-top: 50px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        textarea {
+            resize: none;
+        }
+        .btn-primary {
+            width: 48%;
+            margin-top: 29px;
+        }
+        .translated-box {
+            background: #e9ecef;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .char-count {
+			text-align: right;	
+            font-size: 14px;
+            color: gray;
+        }
+        .translation-section {
+            margin-bottom: 20px;
+        }
+        .side-by-side {
+            display: flex;
+            justify-content: space-between;
+        }
+        .box {
+            width: 48%;
+        }
+        .translation-box {
+            background: #ffffff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-top: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        .form-label-left {
+            text-align: left;
+        }
+        .form-label-right {
+            text-align: right;
+        }
+        .labels-container {
+            display: flex;
+            justify-content: space-between;
+        }
+        .dropdown-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 10px;
+        }
+        .dropdown {
+            width: 48%;
+        }
+        .dropdown-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-top: -10px;
+        }
+</style>
+</head>
+<body>
+ 
+<div class="container">
+<h2>Article Translator And Narrator</h2>
+<form method="POST" enctype="multipart/form-data" onsubmit="return validateForm()">
+<div class="mb-3">
+<div class="labels-container">
+<label for="text" class="form-label-left">Enter English Text (max 3000 characters)</label>
+<label for="text" class="form-label-right"><b>OpenAI-based</b></label>
+</div>
+<textarea name="text" id="text" class="form-control" rows="5" placeholder="Type or paste your article here..." oninput="updateCharCount()"></textarea>
+<div class="char-count" id="charCount">0 / 3000 characters</div> 
+<div class="dropdown-container">
+<div class="dropdown">
+<label for="optionList" class="form-label">Select your voice option</label>
+<select id="optionList" name="optionList" class="form-select">
+<option value="alloy">Alloy</option>
+<option value="ash">Ash</option>
+<option value="coral">Coral</option>
+<option value="echo">Echo</option>
+<option value="fable">Fable</option>
+<option value="onyx">Onyx</option>
+<option value="nova">Nova</option>
+<option value="sage">Sage</option>
+<option value="shimmer">Shimmer</option>
+</select>
+</div>
+<button type="submit" class="btn btn-primary">Translate & Narrat</button>
+</div>
+<div class="char-count" id="charCount">Translate to Hindi,Tamil,Telugu and Spanish</div> 
+</div>
+</form>
+ 
+    {% if translations %}
+<div class="side-by-side">
+<div class="box">
+<h2>Original Text:</h2>
+<div class="translation-box">
+<p>{{ original_text }}</p>
+<audio controls preload="none">
+<source src="{{ url_for('download_file', filename=audio_files['Original'].split('/')[-1]) }}" type="audio/wav">
+                        Your browser does not support the audio element.
+</audio>
+</div>
+</div>
+ 
+            <div class="box">
+<h2>Translations:</h2>
+                {% for lang, translation in translations.items() %}
+<div class="translation-box">
+<h3>{{ lang }}:</h3>
+<p>{{ translation }}</p>
+<audio controls preload="none">
+<source src="{{ url_for('download_file', filename=audio_files[lang].split('/')[-1]) }}" type="audio/wav">
+                            Your browser does not support the audio element.
+</audio>
+</div>
+                {% endfor %}
+</div>
+</div>
+    {% endif %}
+</div>
+ 
+<script>
+ 
+    function validateForm() {
+            var textArea = document.getElementsByName('text')[0].value;
+            if (textArea.length > 3000) {
+                textArea = textArea.substring(0, 3000);
+                document.getElementsByName('text')[0].value = textArea;
+                alert("Input text is too long. Only the first 3000 characters will be used.");
+            }
+ 
+            if (textArea.trim() === "") {
+                alert("Please provide an article text or file.");
+                return false;
+            }
+            return true;
+        } 
+    function updateCharCount() {
+        let textArea = document.getElementById("text");
+        let charCount = document.getElementById("charCount");
+ 
+        if (textArea.value.length > 3000) {
+            textArea.value = textArea.value.substring(0, 3000);
+        }
+        charCount.innerText = textArea.value.length + " / 3000 characters";
+    }
+</script>
+ 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+ 
+</body>
+</html>
