@@ -1,0 +1,34 @@
+RAG Test Questions (10 Total)
+🟢 Basic Retrieval
+ 
+1. What is Artificial Intelligence?
+ 
+2. What is the difference between machine learning and deep learning?
+ 
+3. Name three industries where AI is used.
+ 
+🟡 Intermediate (Contextual)
+ 
+4. How does AI improve efficiency in businesses?
+ 
+5. What role does AI play in healthcare?
+ 
+6. What are two ethical concerns related to AI?
+ 
+🔴 Advanced (Multi-hop / Reasoning)
+ 
+7. How can bias in AI systems impact decision-making, and why does it occur?
+ 
+8. Compare the benefits of AI in finance and healthcare.
+ 
+9. How might AI contribute to both job displacement and economic growth?
+ 
+10. Why is Explainable AI important for the future of AI adoption?
+ 
+ 
+//3 out-of-context questions (answers are not directly present in the document), useful for testing hallucination handling in your RAG system:
+These are good for evaluating whether your system:
+ 
+❌ hallucinates answers
+ 
+✅ correctly says “not found in context”
