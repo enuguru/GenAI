@@ -1,0 +1,1 @@
+ Hello, this is a simple Python program. It converts English text into English speech. The audio file will be saved in Google Colab.
